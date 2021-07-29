@@ -1,0 +1,465 @@
+div{
+    min-height:0px;
+    border:0px solid red;
+}
+
+body{
+    font-style:corbel;
+}
+
+.text-black{
+    color:black;
+}
+
+
+
+.green-background{
+    background-color: darkgreen;
+}
+.home-banner1-bg{
+    background-image:url("images/banner-home-1-img-1-wide.jpg");
+		background-repeat:no-repeat;
+		background-size:center;
+		
+        background-position: center;
+		width:100%;
+        height: 350px;
+        margin:auto; 
+		
+}
+.home-banner2-bg{
+    background-image:url("images/banner-home-1-img-2-wide.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		margin:auto;
+		width:100%;
+        height: 350px;
+		
+}
+
+.overlay-homebanner{
+    background-color:rgba(0,0,0,0.4);
+    width:100%;
+    height: 350px;
+
+	}
+
+.home-banner-text{
+padding-top:30px;
+
+}
+
+.ghost-button {
+    color:green;
+    border: 2px solid #fafafa;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 7px 12px;
+    font-weight: normal;
+    margin: 6px 0;
+    margin-right: 12px;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 120px;
+    font-weight: 400px;
+    display: inline-block;
+    
+    transition: background-color .5s linear;
+}
+
+.ghost-button:hover, .ghost-button:active {
+  color:#fff;
+  background-color:green;
+}
+
+.ghost-button:link {
+    text-decoration: none;
+  }
+  #more-category-btn{
+      margin:auto !important;
+  }
+
+
+  
+  .product-grid{
+    margin-right: 1rem;
+    border-radius:15px;
+    border:1px solid ghostwhite;
+  }
+  .product-grid:hover{
+    
+    box-shadow: 5px 10px 18px #888888;
+  }
+  
+
+  .product-link:hover,.product-link:visited,.product:active {
+    color:black;
+    background-color:white;
+  }
+
+  .text-right{
+      text-align: right;
+      margin:auto;
+  }
+
+  .fa-heart{
+      color:red !important;
+
+      
+  }
+
+
+  .fa-shopping-cart {
+ color:white;
+
+  }
+
+  .fa-user-friends{
+      color:white;
+  }
+
+
+
+  .add-cart{
+      text-align:center;
+  }
+.product-section{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.mail-banner{
+
+    background-image:url("images/products/grocerybag.jpg");
+        background-repeat:no-repeat;
+        background-size:contain;
+        
+        background-position: center;
+        width:100%;
+        height: 332px;
+        margin:auto; 
+        
+}
+
+
+.mail-banner-overlay{
+
+    background-color:rgba(0,0,0,0.7);
+    width:100%;
+    height: 332px;
+
+
+}
+.mail-banner-overlay{
+padding-top:30px;
+color:#929905;
+}
+
+.mail-btn{
+background-color:#929905;
+
+}
+.mail-btn:hover{
+background-color:rgba(0,0,0,0.7);
+}
+
+
+
+
+.text-white{
+color:white;
+}
+
+
+
+
+
+
+
+
+
+
+.vertical-menu a {
+    background-color:rgba(0,0,0,0.7);
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+
+  }
+
+  .vertical-menu a:hover {
+    background-color:black;
+  }
+
+  .vertical-menu span{
+      padding-left: 11px;
+  }
+  
+  .fa-phone-alt{
+      color:#F5C71A;
+  }
+
+
+ 
+.footer-bg{
+    background-color: ghostwhite;
+}
+.footer-list li{
+    list-style-type: none;
+    font-size: 12px;
+    padding-top:9px;
+    padding-left: 0px;
+    
+    
+}
+
+
+.about-us,h6{
+    margin-left: 40px;
+}
+
+.customer-service{
+    margin-left:40px;
+}
+
+.quick-link{
+    margin-left:38px;
+}
+.more{
+    margin-left:40px; 
+}
+.footer-list ul {
+  display: table;
+  margin: 0 auto;
+}
+
+
+.feature-border{
+    border-radius: 15px;
+    border-color: ghostwhite;
+    border: 1px solid ghostwhite;
+}
+.feature-border:hover{
+    border-color:rgba(0,0,0,0.5);
+}
+
+.footer-nav-list  li{
+    list-style-type: none;
+    font-size: 10px;
+    padding-top:9px;
+    display:inline;
+}
+
+.fa-heart{
+    color:red;
+}
+
+.fa-user-lock{
+    color:ghostwhite;
+}
+
+.fa-sign-out-alt{
+    color: ghostwhite;
+}
+
+.footer-copyright{
+font-size:13px;
+text-align: center;
+}
+	
+
+
+/*create account page css major unique css rules starts here */
+.orange{
+    background-color:#f2ac3d;
+}
+.text-orange{
+color:#f2ac3d;
+}
+.login-link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:#28A745;
+}
+.login-link:link,.login-link:active{
+    text-decoration: none;
+}
+.login-link:hover{
+color:maroon;
+}
+
+.red{
+    color:red;
+}
+
+.create-account{
+    border:1px solid ghostwhite;
+    border-radius: 15px;
+   box-shadow: 5px 10px 18px #888888;
+}
+
+/*login page major and unique css rules starts here */
+.login-form{
+    border:1px solid ghostwhite;
+    border-radius: 15px;
+   box-shadow: 5px 10px 18px #888888;
+
+}
+
+.dashboard{
+      position: sticky;
+      top:70px;
+  
+}
+
+/*product card css*/
+
+
+.card {
+  
+  
+ 
+  text-align: center;
+  font-family: corbel;
+  margin-bottom: 30px;
+   margin-right: 1rem;
+    
+    border:0px solid ghostwhite;
+}
+
+.price {
+  color:#073503;
+  font-size: 18px;
+  font-family: Work Sans !important;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+}
+
+.card:hover{
+    
+    box-shadow: 5px 10px 18px #888888;
+    
+  }
+  
+
+  
+.crumb::after {
+  content: ">";
+  text-decoration: none;
+}
+
+
+.dashboard-box-green{
+    background-color:#1E3F20;
+    height:200px;
+    border: 0px solid;
+  padding: 10px;
+ box-shadow: 5px 10px 18px ghostwhite;
+
+
+}
+.dashboard-box-green:hover{
+      box-shadow: 5px 10px 8px #888888;
+
+}
+
+
+
+.dashboard-box-orange{
+    background-color:#cbbaa9;
+    height:200px;
+border: 0px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px ghostwhite;
+}
+.dashboard-box-orange:hover{
+      box-shadow: 5px 10px 8px #888888;
+
+}
+
+
+
+.dashboard-box-vermillion{
+    background-color:#CA3C25;
+    height:200px;
+border: 0px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px ghostwhite;
+}
+.dashboard-box-vermillion:hover{
+      box-shadow: 5px 10px 8px #888888;
+
+}
+
+
+
+
+.dashboard-box-marigold{
+    background-color:#F3A712;
+    height:200px;
+border: 0px solid;
+  padding: 10px;
+box-shadow: 5px 10px 18px ghostwhite;
+
+}
+
+
+.dashboard-box-marigold:hover{
+      box-shadow: 5px 10px 8px #888888;
+
+}
+
+
+
+
+
+
+.dashboard-text{
+    color:ghostwhite;
+}
+  
+.subtotal{
+    text-align: left;
+}
+
+.subtotal-price{
+    float:right;
+}
+  
+
+.left{
+    text-align: left;
+}
+
+.right{
+    float:right;
+}
+.marigold{
+     background-color:#F3A712;
+}
+
+.ghostwhite{
+    color:ghostwhite;
+}
+
+.catty{
+
+color: white;
+padding: 1em 1.5em;
+text-decoration: none;
+text-transform: uppercase;
+
+
+}
